@@ -7,7 +7,7 @@ void TouchProcessor::SetWeight(int weight)
 
 void TouchProcessor::TouchEnded()
 {
-    m_touching = false;
+    m_touching = true;
 }
 
 Point<long> TouchProcessor::Update(Point<long> rawPoint)
